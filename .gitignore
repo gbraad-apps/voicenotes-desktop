@@ -1,0 +1,24 @@
+# Build directories
+build-linux/
+build-windows/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Compiled output
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# whisper.cpp (submodule or vendored — ignore build artifacts)
+whisper.cpp/build/
+
+# OS
+.DS_Store
+Thumbs.db
